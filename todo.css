@@ -1,0 +1,70 @@
+
+/* Basic Style */
+h1 {
+    font-size: 32px;
+    margin: 0px;
+    padding: 4px;
+    color: #ff0080;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+/* Login */
+th.login_field {
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #ff80c0;
+}
+
+td.login_field {
+    padding: 8px;
+}
+
+td.login_button {
+    text-align: center;
+    padding: 8px;
+}
+
+/* List */
+table.toolbar {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+table.list th {
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #ff0080;
+}
+
+table.list td {
+    background-color: #ff80c0;
+    padding: 8px;
+}
+
+/* add/edit/delete */
+th.add_field {
+    width: 150px;
+    text-align: left;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #ff80c0;
+}
+
+td.add_field {
+    padding: 8px;
+}
+
+td.add_button {
+    text-align: center;
+    padding: 8px;
+}
+

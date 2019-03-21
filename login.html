@@ -1,0 +1,43 @@
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset="UTF-8">
+	<title>Login</title>
+	<link rel="STYLESHEET" href="todo.css" type="text/css">
+</head>
+<body>
+	<h1>Login</h1>
+	<hr>
+	<div align="center">
+		<table border="0">
+			<form action="list.html" >
+				<tr>
+					<th class="login_field">
+						user-ID
+					</th>
+					<td class="login_field">
+						<input type="text" name="user_id" value=""
+						size="24" id="user_id"
+						onkeyup="fieldChanged();"
+						onchange="fieldChanged();">
+					</td>
+					</tr>
+					<tr>
+						<th class="login_field">
+							Password
+						</th>
+						<td class="login_field">
+							<input type="password" name="password" value=""
+							size="24">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="login_button">
+							<input type="submit" value="login" id="login">
+						</td>
+					</tr>
+				</form>
+			</table>
+		</div>
+</body>
+</html>

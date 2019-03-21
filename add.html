@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Add Task</title>
+        <link rel="STYLESHEET" href="todo.css" type="text/css">
+    </head>
+    <body>
+        <h1>Add Task</h1>
+        <hr>
+        <div align="center">
+            <table border="0">
+                <form action="list.html">
+                    <tr>
+                        <th class="add_field">
+                            Task
+                        </th>
+                        <td class="add_field">
+                            <input type="text" name="name" value="" size="24">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="add_field">
+                            Officer
+                        </th>
+                        <td class="add_field">
+                            <select name="user_id" size="1">
+                                <option value="user1_id" selected>user1</option>
+                                <option value="user2_id">user2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="add_field">
+                            Due Date
+                        </th>
+                        <td class="add_field">
+                            <input type="text" name="year" value="" size="8">/<input type="text" name="month" value="" size="4">/<input type="text" name="day" value="" size="4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="add_button">
+                            <table border="0">
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="add">
+                                    </td>
+                                    </form>
+                                    <form action="list.html">
+                                    <td>
+                                        <input type="submit" value="cancel">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </body>
+</html>
